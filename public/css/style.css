@@ -144,7 +144,7 @@ hr.divider-header {
 #hero-productspage { background: url('../images/bg-hero-productspage.jpg') 100% no-repeat; height: 60%; min-height: 500px; background-size: cover;}
 #hero-aboutuspage { background: url('../images/bg-hero-homepage.jpg') 100% no-repeat; height: 60%; min-height: 500px; background-size: cover;}
 #hero-contactuspage { background: url('../images/bg-hero-homepage.jpg') 100% no-repeat; height: 60%; min-height: 500px; background-size: cover; }
-#hero-subscribepage { background: url('../images/bg-hero-homepage.jpg') 100% no-repeat; height: 60%; min-height: 500px; background-size: cover; }
+#hero-404page { background: url('../images/bg-hero-homepage.jpg') 100% no-repeat; height: 60%; min-height: 500px; background-size: cover; }
 
 /* Navigation */
 .navbar-toggler-right { background-color: rgba(1,1,1,.1); color: white; }
