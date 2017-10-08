@@ -46,7 +46,7 @@ holstein = {
             emailAddress: $('#newsletter-sign-up-form input[name="email"]').val()
         }
 
-        $.post('api/mailchimp.php', {
+        $.post('/resources/api/mailchimp.php', {
             firstName: request.firstName, 
             lastName: request.lastName, 
             emailAddress: request.emailAddress
