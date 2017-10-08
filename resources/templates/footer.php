@@ -4,23 +4,23 @@
         <div class="col mt-4">
           <ul class="nav justify-content-center">
             <li class="nav-item">
-              <a href="?page=home" class="nav-link">Holstein</a>
+              <a href="home" class="nav-link">Holstein</a>
             </li>
             <li class="nav-item">
-              <a href="?page=products" class="nav-link">Products</a>
+              <a href="products" class="nav-link">Products</a>
             </li>
             <li class="nav-item">
-              <a href="?page=aboutus" class="nav-link">About</a>
+              <a href="aboutus" class="nav-link">About</a>
             </li>
             <li class="nav-item">
-              <a href="?page=contact" class="nav-link">Contact</a>
+              <a href="contact" class="nav-link">Contact</a>
             </li>
           </ul>
         </div>
       </div>
       <div class="row">
         <div class="col my-5 py-5 text-center">
-          <img class="img-fluid" src="images/footer-tagline.png" alt="Tagline">
+          <img class="img-fluid" src="assets/images/footer-tagline.png" alt="Tagline">
         </div>
       </div>
       <div class="row pb-4">
@@ -39,7 +39,7 @@
   </footer>
 
   <script src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>
-  <script src="js/scripts.js"></script>
+  <script src="assets/js/scripts.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js" integrity="sha384-DztdAPBWPRXSA/3eYEEUWrWCy7G5KFbe8fFjk5JAIxUYHKkDx6Qin1DkWx51bBrb" crossorigin="anonymous"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/js/bootstrap.min.js" integrity="sha384-vBWWzlZJ8ea9aCX4pEW3rVHjgjt7zpkNpZk+02D9phzyeVkE+jo0ieGizqPLForn" crossorigin="anonymous"></script>
   <script src="https://use.fontawesome.com/856026a2db.js"></script>

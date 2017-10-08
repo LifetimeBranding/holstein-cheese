@@ -17,23 +17,23 @@
 
   <!-- cheese characteristics component -->
   <div class="row mx-auto" id="cheese-characteristics-row" style="min-height: 250px">
-    <div class="col-sm section-characteristic section-characeristic-banner text-center" style="background-image: url('images/all-natural-icon.png');">
+    <div class="col-sm section-characteristic section-characeristic-banner text-center" style="background-image: url('assets/images/all-natural-icon.png');">
     </div>
-    <div class="col-sm section-characteristic section-characeristic-banner text-center" style="background-image: url('images/Wisconsin-Icon.png');">
+    <div class="col-sm section-characteristic section-characeristic-banner text-center" style="background-image: url('assets/images/Wisconsin-Icon.png');">
 
     </div>
-    <div class="col-sm section-characteristic section-characeristic-banner text-center" style="background-image: url('images/GMO-Free-icon.png');">
+    <div class="col-sm section-characteristic section-characeristic-banner text-center" style="background-image: url('assets/images/GMO-Free-icon.png');">
 
     </div>
-    <div class="col-sm section-characteristic section-characeristic-banner text-center" style="background-image: url('images/Kosher-Icon.png');">
+    <div class="col-sm section-characteristic section-characeristic-banner text-center" style="background-image: url('assets/images/Kosher-Icon.png');">
     </div>
-    <div class="col-sm section-characteristic section-characeristic-banner text-center" style="background-image: url('images/Gluten-Free-icon.png');">
+    <div class="col-sm section-characteristic section-characeristic-banner text-center" style="background-image: url('assets/images/Gluten-Free-icon.png');">
     </div>
   </div>
 
   <!-- product listings -->
   <div class="row mx-auto section-cheese-listing" style="background-color: #f3f3f3;" id="american-cheese">
-    <div class="col-md section-characteristic p-5" style="min-height: 300px; background-color: #fff; background-image: url('images/product-holstein-organic.jpg'); background-position: center; background-size: cover">
+    <div class="col-md section-characteristic p-5" style="min-height: 300px; background-color: #fff; background-image: url('assets/images/product-holstein-organic.jpg'); background-position: center; background-size: cover">
     </div>
     <div class="col-md section-characteristic" style="background-color: #fff;">
       <h3 class="text-boldest text-uppercase mt-3">Organic American Cheese</h3>
@@ -48,7 +48,7 @@
         sandwhich.
       </p>
       <div class="row w-100 mx-auto m-5">
-        <div class="col col-md-4"> <img src="images/usda-color.png" width="82" height="82"> </div>
+        <div class="col col-md-4"> <img src="assets/images/usda-color.png" width="82" height="82"> </div>
         <div class="col col-md-4">
           <p>Size</p><span class="text-medium text-boldest">5lbs</span></div>
         <div class="col col-md-4">
@@ -65,7 +65,7 @@
   </div>
 
   <div class="row mx-auto section-cheese-listing" style="background-color: #f3f3f3;" id="horseradish-cheese">
-    <div class="col-md section-characteristic p-5" style="min-height: 300px; background-color: #fff; background-image: url('images/product-holstein-horseradish.jpg'); background-position: center; background-size: cover;">
+    <div class="col-md section-characteristic p-5" style="min-height: 300px; background-color: #fff; background-image: url('assets/images/product-holstein-horseradish.jpg'); background-position: center; background-size: cover;">
     </div>
     <div class="col-md section-characteristic" style="background-color: #fff;">
       <h3 class="text-boldest text-uppercase mt-3">Horseradish Cheddar</h3>
@@ -94,7 +94,7 @@
   </div>
 
   <div class="row mx-auto section-cheese-listing" style="background-color: #f3f3f3;" id="ultrasharp-cheese">
-    <div class="col-md section-characteristic p-5" style="min-height: 300px; background-color: #fff; background-image: url('images/product-holstein-ultrasharp.jpg'); background-position: center; background-size: cover;">
+    <div class="col-md section-characteristic p-5" style="min-height: 300px; background-color: #fff; background-image: url('assets/images/product-holstein-ultrasharp.jpg'); background-position: center; background-size: cover;">
     </div>
     <div class="col-md section-characteristic" style="background-color: #fff;">
       <h3 class="text-boldest text-uppercase mt-3">Ultra Sharp Cheddar Cheese</h3>

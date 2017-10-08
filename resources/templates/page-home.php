@@ -18,7 +18,7 @@
           <div class="card">
 
             <a href="products#american-cheese">
-              <img class="card-img-top img-fluid" src="images/card-organic.jpg" width="549" height="308" alt="American cheese">
+              <img class="card-img-top img-fluid" src="assets/images/card-organic.jpg" width="549" height="308" alt="American cheese">
               <div class="card-block">
                 <p class="card-text text-bold">American</p>
               </div>
@@ -26,7 +26,7 @@
           </div>
           <div class="card">
             <a href="products#ultrasharp-cheese">
-              <img class="card-img-top img-fluid" src="images/card-ultrasharp.jpg" width="549" height="308" alt="Ultrasharp cheese">
+              <img class="card-img-top img-fluid" src="assets/images/card-ultrasharp.jpg" width="549" height="308" alt="Ultrasharp cheese">
               <div class="card-block">
                 <p class="card-text text-bold">Ultrasharp</p>
               </div>
@@ -34,7 +34,7 @@
           </div>
           <div class="card">
             <a href="products#horseradish-cheese">
-              <img class="card-img-top img-fluid" src="images/card-horseradish.jpg" width="549" height="308" alt="Horseradish cheese">
+              <img class="card-img-top img-fluid" src="assets/images/card-horseradish.jpg" width="549" height="308" alt="Horseradish cheese">
               <div class="card-block">
                 <p class="card-text text-bold">Horseradish</p>
               </div>
@@ -56,7 +56,7 @@
   <!-- interactive section -->
   <div class="col-md-6 col-sm-12 col-lg-6 text-center bgcolor-primary p-5" id="interactive-section-first">
     <div id="interactive-section-first-content">
-      <img src="images/cow-head.png" width="450" height="400" alt="Cow head" class="img-fluid">
+      <img src="assets/images/cow-head.png" width="450" height="400" alt="Cow head" class="img-fluid">
     </div>
   </div>
   <div class="col-md-6 col-sm-12 col-lg-6 bgcolor-primary text-center p-5" id="interactive-section-second">

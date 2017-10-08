@@ -8,7 +8,7 @@
 <!-- jumbo image -->
 <div class="row mx-auto py-5" id="why-choose-holstein">
   <div class="col text-center p-5">
-    <img src="images/about-intro.png" class="img-fluid" width="500">
+    <img src="assets/images/about-intro.png" class="img-fluid" width="500">
   </div>
 </div>
 
@@ -24,15 +24,15 @@
 <!-- facts -->
 <div class="row mx-auto py-5" id="section-holstein-facts">
   <div class="col text-center">
-    <p><img src="images/star.png"></p>
+    <p><img src="assets/images/star.png"></p>
     <p>Holstein is a blend of natural cheese.</p>
   </div>
   <div class="col text-center">
-    <p><img src="images/star.png"></p>
+    <p><img src="assets/images/star.png"></p>
     <p>Does not contain any fillers or artificial flavors.</p>
   </div>
   <div class="col text-center">
-    <p><img src="images/star.png"></p>
+    <p><img src="assets/images/star.png"></p>
     <p>Made in the heart of Wisconsin, home of America's Finest Cheese.</p>
   </div>
 </div>
