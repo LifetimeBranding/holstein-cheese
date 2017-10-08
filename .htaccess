@@ -1,0 +1,14 @@
+RewriteEngine On 
+Options -multiviews
+RewriteCond %{HTTPS} !^on [OR]
+
+RewriteRule ^([a-zA-Z0-9]+)$ index.php?page=$1
+RewriteRule ^([a-zA-Z0-9]+)/$ index.php?page=$1
+
+#PRODUCTION
+#RewriteCond %{HTTP_HOST} ^www\.holsteincheese\.com [NC]
+#RewriteRule ^(.*)$ https://holsteincheese.com/$1 [R=301,L]
+
+#DEVELOPMENT
+RewriteCond %{HTTP_HOST} ^localhost/ [NC]
+RewriteRule ^/holstein/(.*)$ http://localhost/holstein/$1 [R,L]

@@ -1,0 +1,262 @@
+/* Font Definitions */
+@font-face {
+  font-family: 'tt_octas';
+   src:
+        url('../fonts/ttoctas-regular-webfont.woff2') format('woff2'),
+        url('../fonts/ttoctas-regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family:'tt_octasbold';
+   src:
+        url('../fonts/ttoctas-bold-webfont.woff2') format('woff2'),
+        url('../fonts/ttoctas-bold-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+font-family:'tt_octasbold';
+   src:
+        url('../fonts/ttoctas-bold-webfont.woff2') format('woff2'),
+        url('../fonts/ttoctas-bold-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+/* DOM Elements */
+html {
+  height: 100%;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: 'Helvetica Neue' !important;
+  font-size: 19px;
+  font-weight: 300 !important;
+  color: #111;
+  line-height: 1.4;
+  -webkit-font-smoothing: antialiased; 
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+p { font-size: 0.9em; }
+
+
+hr.divider-header {
+  width: 20px;
+  height: 3px;
+  color: #740034;
+  border: none;
+  background-color: #740034; 
+}
+
+button, .button {
+  font-family: 'tt_octasbold';
+  border: 1px solid #000;
+  background-color: #fff;
+  padding: 10px;
+  text-transform: uppercase;
+  font-size: 1em;
+  font-weight: 400;
+}
+
+button:active {
+  color: #000000 !important;
+}
+
+input {
+  background-color: #f3f3f3;
+  color: black;
+  border: #a2a2a2 1px solid;
+  text-transform: uppercase;
+  padding: 10px;
+  font-weight: bold;
+  font-size: 11px;
+}
+
+footer {
+  background-color: #f3f3f3;
+  width: 100%;
+  margin: 0 !important;
+  padding: 0 !important;
+}
+
+/* Google Maps API */
+.google-maps {
+  padding-bottom: 75%;
+  height: 0;
+  overflow: hidden;
+}
+
+.google-maps iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100% !important;
+  height: 100% !important;
+}
+
+#map-homepage {
+  border: 0;
+}
+ 
+/* Other */
+.list-horizontal { display: inline; list-style-type: none; padding-right: 20px; }
+
+hr.divider-header {
+  width: 20px;
+  height: 3px;
+  color: #740034;
+  border: none;
+  background-color: #740034; 
+}
+
+/* HEROs */
+.hero-content-container {
+    text-align: center;
+    width: auto !important;
+    min-width: 300px !important;
+    max-width: 600px !important;
+    padding: 50px !important;
+    outline: 3px solid black; 
+    outline-offset: -10px;
+    background-color: white;
+}
+.hero {
+  width: 100%;
+  padding: 0;
+  margin: 0;
+  background-size: cover;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/* Specific sections and pages */
+#hero-homepage { background: url('../images/bg-hero-homepage.jpg') 100% no-repeat; height: 60%; min-height: 600px; background-size: cover; }
+#hero-productspage { background: url('../images/bg-hero-productspage.jpg') 100% no-repeat; height: 60%; min-height: 500px; background-size: cover;}
+#hero-aboutuspage { background: url('../images/bg-hero-homepage.jpg') 100% no-repeat; height: 60%; min-height: 500px; background-size: cover;}
+#hero-contactuspage { background: url('../images/bg-hero-homepage.jpg') 100% no-repeat; height: 60%; min-height: 500px; background-size: cover; }
+#hero-subscribepage { background: url('../images/bg-hero-homepage.jpg') 100% no-repeat; height: 60%; min-height: 500px; background-size: cover; }
+
+/* Navigation */
+.navbar-toggler-right { background-color: rgba(1,1,1,.1); color: white; }
+nav { height: auto; border-bottom: 1px solid #d4d4d4; }
+footer a { font-family: 'tt_octas'; font-size: 0.8em !important; text-transform: uppercase; font-weight: 700 !important; }
+ul.nav { justify-content: center; }
+nav a { font-family: 'tt_octas'; font-size: 0.8em; text-transform: uppercase; font-weight: 600 !important; color: black !important }
+
+hr.activeLinkUnderline {
+  width: 20px;
+  height: 3px;
+  color: #740034;
+  border: none;
+  background-color: #740034; 
+  margin-top: -1px;
+  margin-bottom: -15px;
+  display: none;
+}
+
+/* Headers */
+h1 { font-family: 'tt_octasbold'; font-size: 3.5em; }
+h2 { font-family: 'tt_octasbold'; font-size: 2.5em; }
+h3 { font-family: 'tt_octasbold'; font-size: 1.75em; }
+
+/* Sections */
+.section-cheese-listing { margin: 0; padding: 0; width: 100%; }
+.section-characteristic { padding: 5%; background-color: #e8e8e8; margin: 1px; min-height: 150px; }
+.section-characeristic-banner { background-position: center; background-size: auto 80%; background-repeat: no-repeat; }
+.section-pagecloser { background-color: #f3f3f3; }
+.section-box500 { position: relative; min-height: 500px; }
+
+#newsletter-signup-box { background: white; }
+#section-holstein-definition { background-color: #f3f3f3; border-top: solid 1px #c8c8c8; border-bottom: solid 1px #c8c8c8;}
+#newsletter-signup-section { padding-top: 300px; padding-bottom: 300px; }
+#cheese-characteristics-row { min-height: 150px; background-color: #a6a6a6; }
+#interactive-section-row { min-height: 500px; }
+#interactive-section-first { border: 1px solid #d4d4d4; }
+#interactive-section-second { border: 1px solid #d4d4d4; color: white; font-size: 1.3em; background-image: url('../images/product-holstein-ultrasharp.jpg'); background-repeat: no-repeat; background-position: center; background-attachment: cover; }
+#interactive-section-third { border: 1px solid #d4d4d4;  }
+#newsletter-signup-section {
+    background: url('/images/wood-background.jpg') 100% no-repeat;
+    background-size: cover;
+    height: 500px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#interactive-section-second-content {
+  width: 250px;
+  height: 150px;
+  position: absolute;
+  text-align: center;
+  top: 50%;
+  left: 50%;
+  margin-left: -125px;
+  margin-top: -70px;
+}
+#interactive-section-third-content {
+  width: 350px;
+  height: 150px;
+  position: absolute;
+  text-align: center;
+  top: 50%;
+  left: 50%;
+  margin-left: -175px;
+  margin-top: -75px;
+}
+#aboutus-img-1 {
+  background-color: #fff; 
+  background-image: url('../images/american-cheese.jpg');
+  min-height: 500px;
+  margin: 0;
+  background-repeat: no-repeat; 
+  background-attachment: cover; 
+  background-size: cover;
+}
+#aboutus-img-2 {
+  background-color: #fff; 
+  background-image: url('../images/family-shot.jpg');
+  min-height: 500px;
+  margin: 0;
+  background-repeat: no-repeat; 
+  background-attachment: cover; 
+  background-size: cover;
+}
+
+/* Links */
+.contact-us-link { font-family: 'tt_octasbold' !important; font-weight: 500 !important; color: white !important}
+a.contact-us-link {color: white !important;}
+a.contact-us-link:hover  { color: white !important}
+a, a:visited, a:active {color: #000;}
+a:hover { color: #740034 !important; text-decoration: none !important; }
+
+/* Color Palette */
+.color-primary { color: #ffffff; }
+
+.color-primary-dark { color: #000; }
+.color-secondary { color: #e8e8e8; }
+.color-secondary-dark { color: #a6a6a6; }
+.color-contrast { color: #fcbd00; }
+
+.bgcolor-primary { background: #ffffff; }
+.bgcolor-primary-dark { background: #000; }
+.bgcolor-secondary { background: #f3f3f3; }
+.bgcolor-secondary-dark { background: #a6a6a6; }
+.bgcolor-contrast { background: #fcbd00; }
+
+/* Text */
+.text-bold { font-family: 'tt_octasbold'; }
+.text-bolder { font-family: 'tt_octasbold'; font-weight: 800; }
+.text-boldest { font-family: 'tt_octasbold'; font-weight: 900; }
+.text-big { font-family: 'tt_octasbold'; font-size: 2.25em; }
+.text-medium { font-size: 1.1em; }
+.text-small { font-size: 0.9em; }
+.text-uppercase { text-transform: uppercase; }
